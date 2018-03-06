@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HackerEarthSmokeSuite">
+  <test name="TestRegitrationLoginAndTestProgram">
+    <classes>
+      <class name="com.HackerEarth.test.smoke.TestRegisterUser"/>
+      <class name="com.HackerEarth.test.smoke.TestProgramAfterLogin"/>
+    </classes>
+  </test> <!-- TestRegitrationLoginAndTestProgram -->
+</suite> <!-- HackerEarthSmokeSuite -->
